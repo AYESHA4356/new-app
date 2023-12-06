@@ -13,10 +13,10 @@ const HeaderLogo = () => {
               </Link>
           </div>
          
-          <div className='flex gap-4 mr-[25px]  items-center h-[40px] mt-[10px] ml-5 px-[22px] bg-neutral-300 border-none '>
+          <div className='flex gap-4 mr-[25px]  items-center  '>
             <div className='text-[18px] '>
               <Link  href="/promise">
-                 Log In
+                 Login
               </Link>
             </div>
             < FaShoppingCart/>
