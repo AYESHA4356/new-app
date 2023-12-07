@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const HeaderLogo = () => {
   return (
-    <div className='logo'>
+    <div className='logo '>
        <div className='container justify-between flex items-center  '>
           <div className='my-5'>
             <Link href="/index.jsx">
