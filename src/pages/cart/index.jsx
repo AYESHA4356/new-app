@@ -7,7 +7,6 @@ import  "../index.css"
 function index() {
   return (
     <div>
-        <HeaderLogo/>
         <Cart/>
     </div>
   )
