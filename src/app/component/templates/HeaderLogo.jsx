@@ -19,7 +19,9 @@ const HeaderLogo = () => {
                  Login
               </Link>
             </div>
+            <Link href="">
             < FaShoppingCart/>
+            </Link>
           </div>
     </div>
   </div>
