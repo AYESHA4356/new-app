@@ -8,7 +8,7 @@ const HeaderLogo = () => {
     <div className='logo '>
        <div className='container justify-between flex items-center  '>
           <div className='my-5'>
-            <Link href="/index.jsx">
+            <Link href="">
               <img width={"150px"}  src="./imges/logo00.png" alt="" />
               </Link>
           </div>
