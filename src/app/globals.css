@@ -12,3 +12,65 @@
     height: 200px;
     width: 200px;
 }
+.main_rotate {
+    transition: transform 0.3s ease;
+}
+.main_rotate:hover {
+    transform: rotate(180deg);
+    transition: 0.6s;
+
+} 
+/* Cart.css */
+
+.cart-page {
+    position: fixed;
+    top: 0;
+    right: -90%; 
+    width: 30%; 
+    height: 100%;
+    background-color: white;
+    transition: right 0.5s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+  
+  .cart-page.open {
+    right: 0; 
+  }
+  
+  .cart-icon {
+    cursor: pointer;
+  }
+  .cart_para {
+    padding-left: 20px;
+    border-left: 1px solid rgb(59, 59, 59) ;
+  }
+  .mx {
+    border-bottom: 1px solid rgb(199, 199, 199);
+  }
+  .gap-5 {
+    border-top: 1px solid rgb(199, 199, 199);
+    padding-top: 30px;
+    }
+  .butt {
+    padding: 7px 20px;
+    background-color: rgba(10, 10, 10, 0.932);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    width: 300px;
+  }
+  .butt:hover {
+    background-color: rgba(228, 0, 0, 0.911);
+    transition: 0.5s;
+}
+.mb-2 {
+    border-top: 1px solid rgb(199, 199, 199);
+}
+.cross {
+    transition: transform 0.3s ease;
+}
+.cross:hover {
+    transform: rotate(180deg);
+    transition: 0.6s;
+
+} 

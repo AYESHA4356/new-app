@@ -8,7 +8,6 @@ import Footer from '@/app/component/templates/Footer'
 function Home() {
   return (
     <div>
-      <h1>badar</h1>
        <HeaderLogo/>
        <HeaderBanner/>
        <HeaderMain/>

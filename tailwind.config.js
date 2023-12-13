@@ -15,4 +15,16 @@ module.exports = {
     },
   },
   plugins: [],
-}
+  variants: {
+    extend: {
+      rotate: ['hover'],
+    },
+  },
+  corePlugins: {
+    '@layer utilities': {
+      '.w-90-custom': {
+        width: '90%',
+      },
+    },
+  },
+};

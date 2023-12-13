@@ -18,8 +18,8 @@ function Login() {
                 <div className='box mb-[15px] block  leading-[18px]  text-[18px]  align-left '>
                   <p className='font-[500]'>Password:</p>
                   <input className='py-[10px] pl-[10px] pr-[150px]  mt-[15px] border-solid border-rgba(0,0,0,.1); border-2 '
-                   type="password" 
-                   placeholder='Enter Password' />
+                   type = "password" 
+                   placeholder=' '/>
                 </div>
                 </div>
                 <div className='box end  block  leading-[18px] font-[400] text-[18px]  align-left py-[25px] px-[90px] '>
