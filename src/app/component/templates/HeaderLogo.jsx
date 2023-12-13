@@ -10,7 +10,7 @@ const HeaderLogo = () => {
           <div className='my-5'>
             <Link href="">
               <img width={"150px"}  src="./imges/logo00.png" alt="" />
-              </Link>
+            </Link>
           </div>
          
           <div className='flex gap-4 mr-[25px]  items-center  '>
