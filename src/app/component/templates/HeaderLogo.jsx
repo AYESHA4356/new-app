@@ -30,6 +30,7 @@ const HeaderLogo = () => {
   }, [isOpen]);
 
   return (
+<<<<<<< HEAD
     <div className='logo'>
       <div className='container justify-between flex items-center'>
         <div className='my-5'>
@@ -68,6 +69,25 @@ const HeaderLogo = () => {
                 </Link>
               </div>
             </div>
+=======
+    <div className='logo '>
+       <div className='container justify-between flex items-center  '>
+          <div className='my-5'>
+            <Link href="">
+              <img width={"150px"}  src="./imges/logo00.png" alt="" />
+            </Link>
+          </div>
+         
+          <div className='flex gap-4 mr-[25px]  items-center  '>
+            <div className='text-[18px] '>
+              <Link  href="/promise">
+                 Login
+              </Link>
+            </div>
+            <Link href="">
+            < FaShoppingCart/>
+            </Link>
+>>>>>>> c15496916dfa4012ac3974b45e5dd79307650fc4
           </div>
         </div>
       </div>

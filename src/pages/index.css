@@ -8,6 +8,10 @@
     padding: 0 30px;
     margin: 0 auto;
 }
+.box_2{
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.267);
+}
+
 .verfy .clear{
     background: rgba(248,248,248,.9);
  
@@ -24,3 +28,32 @@
     border-top: 1px solid rgba(0,0,0,.1);
     background: rgba(248,248,248,.9);
 }
+
+
+/* increment decrement */
+
+.body {
+    font-family: Arial, sans-serif;
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+  #counter-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #counter {
+    margin: 0 15px;
+    font-size: 24px;
+  }
+
+  button  {
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: #e9e8e8;
+    padding: 5px 15px;
+    font-size: 25px;
+    cursor: pointer;
+  }

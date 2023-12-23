@@ -7,7 +7,11 @@ import Footer from '@/app/component/templates/Footer'
 
 function Home() {
   return (
+<<<<<<< HEAD
     <div>
+=======
+    <div> 
+>>>>>>> c15496916dfa4012ac3974b45e5dd79307650fc4
        <HeaderLogo/>
        <HeaderBanner/>
        <HeaderMain/>

@@ -3,6 +3,7 @@ import React from 'react'
 
 function Login() {
   return (
+<<<<<<< HEAD
           <div className='container'>
           <div className='verfy h-[450px] w-[450px] mt-[80px] my-0 mx-auto border-solid border-rgba(0,0,0,.1)  border '>
               <div className=' clear text-[18px] py-[30px] px-[20px] m-0 border-b-solid border-b-rgba(0,0,0,.1) border-b  '>
@@ -29,6 +30,9 @@ function Login() {
                 
           </div>
         </div>
+=======
+     <div>Login</div>
+>>>>>>> c15496916dfa4012ac3974b45e5dd79307650fc4
 
   )
 }
