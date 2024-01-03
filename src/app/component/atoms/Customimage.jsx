@@ -5,6 +5,7 @@ function Customimage() {
     <div>Customimage</div>
     
   )
+  
 }
 
 export default Customimage
