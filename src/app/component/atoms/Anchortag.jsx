@@ -1,19 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
-const AnchorTag = ({href, children}) =>{
-   
-  const anchorStyle = "cursor-pointer";
+const AnchorTag = ({ href, children }) => {
+  
+  const anchorStyle = "cursor-pointer"
+  
+  return (
+    <a className={anchorStyle} href={href}>{children}</a>
+  )
+}
 
- return (
-  <a className= {anchorStyle}  href={href}>
-      {children}
-  </a>
- )
- }
-AnchorTag.propTypes =  {
-  href: PropTypes.string.isRequired,
-  children:  PropTypes.string.isRequired,
-};
+AnchorTag.propTypes = {
+    href: PropTypes.string.isRequired,
+    children: PropTypes.string.isRequired
+}
 
-export default AnchorTag;
+export default AnchorTag

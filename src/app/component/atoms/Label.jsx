@@ -1,9 +1,18 @@
-import React from 'react'
+import PropTypes from 'prop-types';
 
-function Label() {
+const Label = ({ children, htmlFor }) => {
+  const labelStyle = "text-secondary";
+
   return (
-    <div>Label</div>
-  )
-}
+    <label htmlFor={htmlFor} className={labelStyle}>
+      {children}
+    </label>
+  );
+};
 
-export default Label
+Label.propTypes = {
+  htmlFor: PropTypes.string.isRequired,
+  children: PropTypes.string.isRequired,
+};
+
+export default Label;

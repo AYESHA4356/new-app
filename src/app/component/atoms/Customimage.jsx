@@ -1,11 +1,15 @@
-import React from 'react'
+import PropTypes from "prop-types";
 
-function Customimage() {
+function CustomImage({ src, alt }) {
+
   return (
-    <div>Customimage</div>
-    
-  )
-  
+    <img className="min-h-[400px] w-full max-h-[300px]" src={src} alt={alt} />
+  );
 }
 
-export default Customimage
+CustomImage.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};
+
+export default CustomImage;

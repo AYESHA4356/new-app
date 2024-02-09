@@ -1,9 +1,16 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
-function Span() {
+const Span = ({ children }) => {
+
+  const spanStyle = "text-secondary"
+
   return (
-    <div>Span</div>
+    <span className={spanStyle}>{children}</span>
   )
+}
+
+Span.propTypes = {
+    children: PropTypes.string.isRequired
 }
 
 export default Span

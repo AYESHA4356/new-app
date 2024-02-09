@@ -1,9 +1,13 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
-function Paragraph() {
+const Paragraph = ({ children }) => {
   return (
-    <div>Paragraph</div>
+    <p>{ children }</p>
   )
+}
+
+Paragraph.propTypes = {
+    children: PropTypes.string.isRequired
 }
 
 export default Paragraph

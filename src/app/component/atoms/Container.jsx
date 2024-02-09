@@ -1,8 +1,6 @@
-import React from 'react'
-
 function Container() {
   return (
-    <div>Container</div>
+    <div className="px-[30px] mx-auto 2xl:max-w-[1440px] xl:max-w-[1440px]">Container</div>
   )
 }
 

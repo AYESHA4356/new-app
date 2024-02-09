@@ -1,9 +1,5 @@
-import React from 'react'
+const Input = ({ type, name, value, onChange }) => {
+  return <input className="border-2 bg- border-secondary" type={type} name={name} value={value} onChange={onChange} />;
+};
 
-function Input() {
-  return (
-    <div>Input</div>
-  )
-}
-
-export default Input
+export default Input;

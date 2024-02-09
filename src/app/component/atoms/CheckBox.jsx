@@ -1,9 +1,10 @@
-import React from 'react'
-
-function CheckBox() {
+const Checkbox = ({ label, checked, onChange }) => {
   return (
-    <div>CheckBox</div>
-  )
-}
+    <label>
+      <input type="checkbox" checked={checked} onChange={onChange} />
+      {label}
+    </label>
+  );
+};
 
-export default CheckBox
+export default Checkbox;
